@@ -1,0 +1,12 @@
+.card {
+    background: #1f5b6e;
+    border-radius: 2px;
+    display: inline-block;
+    height: 150px;
+    margin: 1rem 2rem;
+    position: relative;
+    width: 270px;
+    font-size: 1.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+

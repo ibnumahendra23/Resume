@@ -1,0 +1,71 @@
+.paralax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* --- TITLE SECTION --- */
+.TitleSection {
+    /*Photo by Matthew Smith on Unsplash*/
+    background-image: url("../img/semarang.jpg");    
+    color: white;
+    height: 150px;
+    position: relative;
+}
+
+.TitleSection h1 {
+    margin: 0;
+    /*VERTICAL ALIGN*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /*FONT DESIGN*/
+    letter-spacing: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.TitleSection-1 {
+    /*Photo by Matthew Smith on Unsplash*/
+    background-image: url("../img/semarang0.jpg");    
+    color: white;
+    height: 150px;
+    position: relative;
+}
+
+.TitleSection-1 h1 {
+    margin: 0;
+    /*VERTICAL ALIGN*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /*FONT DESIGN*/
+    letter-spacing: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+/* --- TITLE SECTION --- */
+
+/* --- FOOTER SECTION --- */
+footer {
+    height: 75px;
+    padding-top: 20px;
+    /* box-shadow:0 0 5px grey; */
+    color: white;
+    background-image: url("../img/semarang0.jpg");
+    text-align: center;
+}
+
+/* --- FOOTER SECTION --- */
+
+/* section{
+    padding-top: 25px;
+} */
