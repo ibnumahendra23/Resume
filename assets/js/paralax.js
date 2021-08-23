@@ -1,7 +1,6 @@
-//W3 school smooth spyscroll
-$(document).ready(function(){
+$(document).on('ready', function(){
   
-    $('body').scrollspy({target: ".navbar", offset: 0});
+    $('body').scrollspy({target: ".nav", offset: 0});
     $("#navbar a").on('click', function(event) {
       if (this.hash !== "") {
         event.preventDefault();
